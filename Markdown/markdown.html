@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>MarkDown Help</title>
+	</head>
+	<body>
+		<h1>Markdown</h1>
+		<h2>Overview</h2>
+		<p>Markdown is intended to be as easy-to-read and easy-to-write as is feasible.</p>
+		<p>Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like it`s been marked up with tags or formatting instructions. While Markdown`s syntax has been influenced by several existing text-to-HTML filters - including Setext, atx, Textile, reStructuredText, Grutatext, and EtText - the single biggest source of inspiration for Markdown`s syntax is the format of plain text email.</p>
+		
+		<h2>Headers</h2>
+		<p>The overriding design goal for Markdown`s formatting syntax is to make it as readable as possible. The idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it`s been marked up with tags or formatting instructions. While Markdown`s syntax has been influenced by several existing text-to-HTML filters, the single biggest source of inspiration for Markdown`s syntax is the format of plain text email.</p>
+		<code><pre>
+This is an H1
+=============
+
+This is an H2
+-------------
+</pre>
+</code>
+		<nav>
+		<p>which will be converted to</p>
+		<h1>This is an H1</h1>
+		<h2>This is an H2</h2>
+		<hr>
+		<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">this is a link</a>
+		<h2>Lists</h2>
+		<p>Markdown supports ordered (numbered) and unordered (bulleted) lists.</p>
+		</nav>
+		<code><pre>
+*   Red
+*   Green
+*   Blue
+</pre></code>
+		<p>it will be converted to</p>
+		<ul>
+			<li>Red</li>
+			<li>Green</li>
+			<li>Blue</li>
+		</ul>
+		
+		<p>Ordered lists use numbers followed by periods:</p>
+		<code><pre>
+1.   Red
+2.   Green
+3.   Blue
+</pre></code>
+<p>it will be converted to</p>
+		<ol>
+			<li>Red</li>
+			<li>Green</li>
+			<li>Blue</li>
+		</ol>
+		
+		<p>Definition lists</p>
+		<code><pre>
+kramdown
+: A Markdown-superset converter
+
+Maruku
+: Another Markdown-superset converter
+</pre></code>
+		<p>it will be converted to</p>
+		<dl>
+			<dt>kramdown</dt>
+			<dd>A Markdown-superset converter</dd>
+			<dt>Markdown</dt>
+			<dd>Another Markdown-superset converter</dd>
+		</dl>
+	
+		<blockquote cite="http://developer.mozilla.org">
+		<p>This is a quotation taken from
+		the Mozilla Developer Center.</p>
+		</blockquote>
+		
+		<table>
+			<th>Header 1</th>
+			<tr>
+				<td>First</td>
+				<td>Second</td>
+			</tr>
+			<th>Header 2</th>
+			<tr>
+				<td>First</td>
+				<td>Second</td>
+			</tr>
+		</table>
+		
+		<div>
+		<p>Any kind of content here. Such as
+		&lt;p&gt;, &lt;table&gt;. You name it!</p>
+		</div>
+		
+	</body>
+</html>
